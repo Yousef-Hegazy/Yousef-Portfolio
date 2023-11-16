@@ -45,12 +45,16 @@ const ImagesCarousel = ({
   const handleDrag = useCallback(
     (_: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
       if (info.offset.x < 0) {
-        handleNext();
+        {
+          lang === "ar" ? handlePrevious() : handleNext();
+        }
       } else {
-        handlePrevious();
+        {
+          lang === "ar" ? handleNext() : handlePrevious();
+        }
       }
     },
-    [handleNext, handlePrevious]
+    [handleNext, handlePrevious, lang]
   );
 
   return (
