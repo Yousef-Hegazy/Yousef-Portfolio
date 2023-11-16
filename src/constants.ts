@@ -1,0 +1,1 @@
+export const aboutCardWidth = '64.5rem';

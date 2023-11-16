@@ -1,0 +1,75 @@
+{
+    "language": "English",
+    "language_code": "en",
+    "language_symbol": "En",
+    "other_language_symbol": "ع",
+    "other_language_name": "العربية",
+    "links": {
+        "about": "About",
+        "myProjects": "Projects",
+        "techStack": "Tech Stack",
+        "certificates": "Certificates"
+    },
+    "nav": {
+        "navigation": "Menu"
+    },
+    "intro": {
+        "title": "Full-Stack Developer",
+        "text": "Hi! 👋 I'm Yousef, a full-stack developer currently living in Saudi Arabia 📌"
+    },
+    "about": {
+        "title": "About Me",
+        "text": {
+            "0": "I am very passionate about programming and am always happy to learn new things. ",
+            "1": "I'm also a team player and good at collaborating with other developers. ",
+            "2": "I have experience using multiple technologies and libraries to create simple and complex applications. ",
+            "3": "Please check out the full tech stack "
+        }
+    },
+    "techStack": {
+        "header": {
+            "0": "Below, you'll find the ",
+            "1": "Languages & Technologies",
+            "2": " that I'm most proficient in using."
+        },
+        "projects": {
+            "0": "Next, here are ",
+            "1": "The Projects",
+            "2": " that I worked on."
+        }
+    },
+    "projects": {
+        "title": "Below, you'll find some of my personal projects and projects that I worked on with a team, along with the stack used in each of them.",
+        "expensesManager": {
+            "title": "Expenses Manager",
+            "description": "This is an application that helps track your expenses and shows simple statistics of your expenses across the different categories."
+        },
+        "eKhadamat": {
+            "title": "E-Khadamat",
+            "description": "This application helps municipalities in KSA manage their tasks; it has more than four modules, each of which is responsible for helping a different department. Unfortunately, the client doesn't allow me to show a full-demo or the code since it is a private app, but I can show some images and the main page here."
+        },
+        "iscopeDownloader": {
+            "title": "iScope Downloader",
+            "description": "The application was developed to integrate with an existing project management app called iScope iScope is a comprehensive application that facilitates real-time communication and progress tracking among project owners, contractors, and supervising engineers. It also hosts numerous documents related to each project. However, iScope needed to integrate with another program that was not flexible for modifications. Thus, the iScope team had to handle the integration independently. To optimize the process of document management, a tool was developed to download the documents rather than manually downloading them every time a new one is added. This tool also generates an XML file containing data for each document, such as the project name, project ID, and document title."
+        },
+        "certificates": {
+            "0": "Next, here are ",
+            "1": "The Certificates",
+            "2": " that I have Obtained."
+        }
+    },
+    "certificates": {
+        "title": "Below you'll find some of my Certificates, including my college graduation certificate, among others from online courses.",
+        "graduation": "Graduation certificate from Prince Sattam bin Abdulaziz University, College of Computer Science and Engineering",
+        "SCE": "Professional Accreditation Certificate from the Saudi Council of Engineers (SCE)",
+        "reactNative": "Udemy React Native Course Completion Certificate By Academind",
+        "react": "Udemy React Course Completion Certificate By Jonas",
+        "next": "Udemy NextJS Course Completion Certificate By Batuhan"
+    },
+    "common": {
+        "here": "here",
+        "viewImages": "View images",
+        "viewDescription": "Open Description",
+        "close": "Close"
+    }
+}
