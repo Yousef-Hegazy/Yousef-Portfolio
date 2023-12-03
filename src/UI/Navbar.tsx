@@ -90,6 +90,7 @@ const MyAppBar = styled(AppBar)`
   border-radius: 0 0 5px 5px;
   color: #403d3d;
   z-index: 10;
+  overflow: hidden;
 ` as typeof AppBar;
 
 const LogoLink = styled(Link)`

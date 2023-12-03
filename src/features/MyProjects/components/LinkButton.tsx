@@ -4,29 +4,27 @@ import { JSX } from "react";
 import { Box, styled } from "@mui/material";
 
 interface LinkButtonProps {
-    href: string;
-    icon: JSX.Element;
-    text: string;
+  href: string;
+  icon: JSX.Element;
+  text: string;
 }
 
 const LinkButton = ({ href, icon, text }: LinkButtonProps) => {
-
-    return (
-        <StyledLinkButton
-            component={motion.a}
-            onClick={e => e.stopPropagation()}
-            variants={linkBtnVariants}
-            whileHover='hover'
-            href={href}
-            target='_blank'
-            custom={{ bgColor: '#e7fff7' }}
-        >
-            <motion.span variants={linkBtnText}>{text}</motion.span>
-            <motion.div variants={linkBtnIcon}>
-                {icon}
-            </motion.div>
-        </StyledLinkButton>
-    );
+  return (
+    <StyledLinkButton
+      dir="ltr"
+      component={motion.a}
+      onClick={(e) => e.stopPropagation()}
+      variants={linkBtnVariants}
+      whileHover="hover"
+      href={href}
+      target="_blank"
+      custom={{ bgColor: "#e7fff7" }}
+    >
+      <motion.span variants={linkBtnText}>{text}</motion.span>
+      <motion.div variants={linkBtnIcon}>{icon}</motion.div>
+    </StyledLinkButton>
+  );
 };
 
 const StyledLinkButton = styled(Box)`
